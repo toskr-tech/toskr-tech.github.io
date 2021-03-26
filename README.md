@@ -1,1 +1,3 @@
-# toskr-tech.github.io
+To run the website locally, make sure you have docker installed. Then you can run `make serve` to spin up a local server. The terminal will print out how to access it.
+
+If you modify the `_config.yml`, you will have to restart the server. Because that can take some time, you can also run the server in two steps to spend less time waiting. First, run `make interactive` to start an interactive container. Then type `jekyll serve` to run the server. You can now stop the server inside the container without having to restart the entire container: press `Ctrl + C` to stop the server and run `jekyll serve` again.
